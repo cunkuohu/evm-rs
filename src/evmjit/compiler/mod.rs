@@ -13,3 +13,5 @@ pub mod runtime;
 pub mod stack;
 
 pub use self::jit_context::JITContext;
+pub mod callback;
+mod util;
